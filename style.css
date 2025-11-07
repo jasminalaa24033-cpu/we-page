@@ -1,0 +1,82 @@
+header{
+    background-color: blue;
+    width: 1210px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+header nav{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 1210px;
+    display: grid;
+    grid-template-columns: 300px 500px 100px;
+    justify-content: space-between;
+    color: white;
+}
+header ul{
+    display: grid;
+    grid-template-columns:repeat(4,100px);
+    padding: 10px;
+}
+header button{
+    padding: 15px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-top: 15px;
+    color: blue;
+}
+header .logo{
+    padding: 20px;
+}
+header .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+}
+header .logo a span{
+    color: yellow;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+.parent{
+    /* background-color: blueviolet; */
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+    color: white;
+
+    
+}
+.parent .content h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent img{
+    width: 430px;
+    border: 0px;
+    border-radius: 10px;
+}
+.parent .content h2 span{
+    color: yellow;
+}
+@media (max-width:600px){
+    nav{
+        grid-template-columns: 40% 60%;
+
+    }
+    
+
+}
